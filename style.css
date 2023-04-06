@@ -3,16 +3,18 @@ body {
 }
 
 header {
-  margin: 20px 10px;
-  border-bottom: 1px solid #000;
-  height: 100%;
+  font-family: Calibri;
+  font-size: 20px;
+  margin: 10px 10px;
+  border-bottom: 0.5px solid #000;
   text-align: center;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
   header {
     margin: 20px 10px;
-    height: 200px;
+    height: 200px
   }
 }
 
@@ -105,6 +107,6 @@ footer {
   border-top: 1px solid #000;
   height: 100%;
   padding-top: 10px;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
